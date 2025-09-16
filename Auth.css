@@ -1,0 +1,75 @@
+/* Auth container */
+.auth-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px 25px;
+  background-color: #1e1e2f;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form heading */
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #00bfff;
+}
+
+/* Form fields */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.auth-form input,
+.auth-form select {
+  padding: 10px 12px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+/* Input focus effect */
+.auth-form input:focus,
+.auth-form select:focus {
+  outline: 2px solid #00bfff;
+  background-color: #2a2a40;
+  color: #fff;
+}
+
+/* Submit button */
+.auth-form button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00bfff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.auth-form button:hover {
+  background-color: #009acd;
+}
+
+/* Optional: small links */
+.auth-container .auth-footer {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.auth-container .auth-footer a {
+  color: #00bfff;
+  text-decoration: none;
+}
+
+.auth-container .auth-footer a:hover {
+  text-decoration: underline;
+}
